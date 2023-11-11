@@ -40,7 +40,7 @@
 				}
 			},
 			{
-				"name": "ForEach ECDC Files",
+				"name": "Execute Copy For Every Record",
 				"type": "ForEach",
 				"dependsOn": [
 					{
