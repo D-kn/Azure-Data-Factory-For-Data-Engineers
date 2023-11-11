@@ -5,12 +5,20 @@
 			"referenceName": "ls_ablob_sarscov2reportingsa",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"inputFile": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Json",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "ecdc_file_list_for_2_files.json",
+				"fileName": {
+					"value": "@dataset().inputFile",
+					"type": "Expression"
+				},
 				"container": "configs"
 			}
 		},
