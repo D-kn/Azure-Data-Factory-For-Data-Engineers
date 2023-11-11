@@ -1,0 +1,9 @@
+{
+	"name": "sars-cov-2-reporting-adf",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6e8a8e5e-b4f3-4700-bffb-91740226208f",
+		"tenantId": "21e3f437-43d4-4ee7-9670-a6bebd6c9061"
+	}
+}
